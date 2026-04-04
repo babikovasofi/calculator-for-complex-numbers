@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitWork\\ClassLibraryForCalc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4963A5-763E-4190-819D-DA061849FCB9}|ClassLibraryForCalc\\ClassLibraryForCalc.csproj|c:\\gitwork\\classlibraryforcalc\\classlibraryforcalc\\complexnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4963A5-763E-4190-819D-DA061849FCB9}|ClassLibraryForCalc\\ClassLibraryForCalc.csproj|solutionrelative:classlibraryforcalc\\complexnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D4963A5-763E-4190-819D-DA061849FCB9}|ClassLibraryForCalc\\ClassLibraryForCalc.csproj|c:\\gitwork\\classlibraryforcalc\\classlibraryforcalc\\uicalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D4963A5-763E-4190-819D-DA061849FCB9}|ClassLibraryForCalc\\ClassLibraryForCalc.csproj|solutionrelative:classlibraryforcalc\\uicalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIcalculator.cs",
+              "DocumentMoniker": "C:\\GitWork\\ClassLibraryForCalc\\ClassLibraryForCalc\\UIcalculator.cs",
+              "RelativeDocumentMoniker": "ClassLibraryForCalc\\UIcalculator.cs",
+              "ToolTip": "C:\\GitWork\\ClassLibraryForCalc\\ClassLibraryForCalc\\UIcalculator.cs",
+              "RelativeToolTip": "ClassLibraryForCalc\\UIcalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:50:37.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComplexNumber.cs",
+              "DocumentMoniker": "C:\\GitWork\\ClassLibraryForCalc\\ClassLibraryForCalc\\ComplexNumber.cs",
+              "RelativeDocumentMoniker": "ClassLibraryForCalc\\ComplexNumber.cs",
+              "ToolTip": "C:\\GitWork\\ClassLibraryForCalc\\ClassLibraryForCalc\\ComplexNumber.cs",
+              "RelativeToolTip": "ClassLibraryForCalc\\ComplexNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:50:19.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
