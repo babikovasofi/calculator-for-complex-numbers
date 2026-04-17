@@ -4,85 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComplexCalculator.Contracts
+namespace ComplexCalculatorContracts
 {
-    /// <summary>
-    /// Интерфейс комплексного числа и операций над ним
-    /// </summary>
+    
     public interface IComplexNumber
     {
-        // ===== Свойства =====
+        double RPart { get; }
 
-        /// <summary>
-        /// Действительная часть (Re)
-        /// </summary>
-        double Real { get; }
+        double ImPart { get; }
 
-        /// <summary>
-        /// Мнимая часть (Im)
-        /// </summary>
-        double Imaginary { get; }
+        double Modul { get; }
 
-        /// <summary>
-        /// Модуль комплексного числа: √(Re² + Im²)
-        /// </summary>
-        double Magnitude { get; }
+        IComplexNumber Plus(IComplexNumber other);
 
-        // ===== Арифметические операции =====
+        IComplexNumber Minus(IComplexNumber other);
 
-        /// <summary>
-        /// Сложение: this + other
-        /// </summary>
-        IComplexNumber Add(IComplexNumber other);
+        IComplexNumber Mnoj(IComplexNumber other);
 
-        /// <summary>
-        /// Вычитание: this - other
-        /// </summary>
-        IComplexNumber Subtract(IComplexNumber other);
+        IComplexNumber Delen(IComplexNumber other);
 
-        /// <summary>
-        /// Умножение: this * other
-        /// </summary>
-        IComplexNumber Multiply(IComplexNumber other);
-
-        /// <summary>
-        /// Деление: this / other
-        /// Выбрасывает исключение при делении на ноль
-        /// </summary>
-        IComplexNumber Divide(IComplexNumber other);
-
-        // ===== Сравнение =====
-
-        /// <summary>
-        /// Проверка на равенство (совпадают Re и Im)
-        /// </summary>
         bool Equals(IComplexNumber other);
 
-        /// <summary>
-        /// Сравнение по модулю: this > other
-        /// </summary>
-        bool IsGreaterThan(IComplexNumber other);
+        bool Bigger(IComplexNumber other);
 
-        /// <summary>
-        /// Сравнение по модулю: this < other
-        /// </summary>
-        bool IsLessThan(IComplexNumber other);
+        bool Smaller(IComplexNumber other);
 
-        /// <summary>
-        /// Сравнение по модулю: this >= other
-        /// </summary>
-        bool IsGreaterOrEqual(IComplexNumber other);
+        bool BiggerOrEqual(IComplexNumber other);
+        
+        bool SmallerOrEqual(IComplexNumber other);
 
-        /// <summary>
-        /// Сравнение по модулю: this <= other
-        /// </summary>
-        bool IsLessOrEqual(IComplexNumber other);
-
-        // ===== Представление =====
-
-        /// <summary>
-        /// Строковое представление вида "a + bi"
-        /// </summary>
         string ToString();
     }
 }

@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComplexCalculator.Contracts
+namespace ComplexCalculatorContracts
 {
     
-    /// Интерфейс пользовательского взаимодействия с калькулятором
-   
     public interface ICalculatorUI
     {
         
